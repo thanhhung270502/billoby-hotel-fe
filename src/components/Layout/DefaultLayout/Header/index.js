@@ -27,7 +27,7 @@ function Header() {
             <div className="header-mid">
                 <div className="container">
                     <div className="d-flex justify-content-between align-items-center inner-header-mid">
-                        <div className="header-brand">Billoby.</div>
+                        <a className="header-brand" href="./">Billoby.</a>
                         <div className="header-search">
                             <div className="d-flex align-items-center">
                                 <input

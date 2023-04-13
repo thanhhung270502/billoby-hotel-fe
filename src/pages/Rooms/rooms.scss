@@ -1,0 +1,76 @@
+.rooms-section {
+    padding: 2rem 0;
+}
+
+.rooms-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 1rem;
+    color: var(--primary);
+}
+
+.rooms-breadcrumb {
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+.breadcrumb-item {
+    padding: 0 0.5rem;
+    color: var(--light);
+}
+
+.breadcrumb-icon {
+    color: var(--light);
+}
+
+.breadcrumb-active {
+    color: var(--white);
+}
+
+.rooms-item {
+    border: 2px solid rgba($color: #fff, $alpha: 0.3);
+}
+
+.rooms-image {
+
+}
+
+.rooms-name,
+.rooms-price,
+.rooms-info {
+    padding: 0 2rem;
+}
+
+.rooms-name {
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.rooms-price {
+    color: var(--primary);
+    font-size: 1.75rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+
+    span {
+        color: var(--white);
+        font-size: 1rem;
+    }
+}
+
+.rooms-info {
+    padding: 0.5rem 2rem;
+}
+
+.rooms-detail {
+    margin: 1rem 2rem;
+    background-color: var(--primary);
+    width: fit-content;
+    padding: 0.5rem 1rem;
+    border-radius: 10000px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}

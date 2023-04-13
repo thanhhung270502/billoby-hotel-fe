@@ -1,9 +1,9 @@
 // Layouts
 import { OnlyHeader } from '~/components/Layout';
-import Courses from '~/pages/Courses';
 
 // Pages
 import Home from '~/pages/Home';
+import Rooms from '~/pages/Rooms';
 // import Product_Index from '~/pages/Product_Index';
 import Test from '~/pages/Test';
 import Upload from '~/pages/Upload';
@@ -27,10 +27,10 @@ const publicRoutes = [
         component: Upload,
         layout: null,
     },
-    // http://localhost:3000/courses
+    // http://localhost:3000/rooms
     {
-        path: '/courses',
-        component: Courses,
+        path: '/rooms',
+        component: Rooms,
     },
 ];
 
