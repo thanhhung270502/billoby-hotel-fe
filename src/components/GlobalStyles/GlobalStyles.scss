@@ -13,7 +13,7 @@
     
     --purple: #b660e1;
     --purple-darken: #151027;
-
+    --purple-darken-light: #32004b;
 }
 
 * {
@@ -27,5 +27,15 @@ html {
 
 body {
     background-color: var(--purple-darken);
+    color: var(--white);
+    font-family: 'Poppins', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
     color: var(--white);
 }
