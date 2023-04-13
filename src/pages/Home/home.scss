@@ -1,3 +1,13 @@
+// Section
+.title-section {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--primary);
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+// --------------- Intro -------------- //
 .intro-section {
     padding: 2rem 0;
 }
@@ -37,12 +47,12 @@
 
 .endow-sub-text {
     font-size: 0.75rem;
-    color: #ccc;    
+    color: var(--light);    
 }
 
 // ------------ Categories ---------------//
 .categories-section {
-    padding: 4rem 0;
+    padding: 4rem 0 2rem;
 }
 
 .inner-category-section {
@@ -63,5 +73,29 @@
 
 .category-count {
     font-size: 0.8rem;
-    color: #ccc;
+    color: var(--light);
+}
+
+// ------------------ Service --------------------- //
+.service-section {
+    padding: 2rem 0;
+}
+.service-item {
+    text-align: justify;
+}
+
+.service-icon {
+    font-size: 2rem;
+    color: var(--primary);
+    padding-bottom: 1rem;
+}
+
+.service-text {
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding-bottom: 0.75rem;
+}
+
+.service-sub-text {
+    color: var(--light);
 }
