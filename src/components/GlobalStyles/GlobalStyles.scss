@@ -40,3 +40,17 @@ a {
     text-decoration: none;
     color: var(--white);
 }
+
+.breadcrumb-item {
+    padding-right: 0.5rem;
+    color: var(--light);
+}
+
+.breadcrumb-icon {
+    color: var(--light);
+    padding-right: 0.5rem;
+}
+
+.breadcrumb-active {
+    color: var(--white);
+}

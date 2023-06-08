@@ -58,7 +58,7 @@ function Rooms() {
                                 <div className="col-8">Tea/Coffee, Air Conditioning, WiFi, Television...</div>
                             </div>
                             <div className="rooms-detail">
-                                <a className="" href="#">
+                                <a className="" href={`/rooms/` + value.slug}>
                                     MORE DETAILS
                                 </a>
                             </div>
